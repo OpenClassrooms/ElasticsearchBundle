@@ -1,0 +1,9 @@
+open_classrooms_elasticsearch:
+    clients:
+        client_name:
+            hosts :
+                - host-test
+                - 127.0.0.1
+        second_client_name:
+                hosts :
+                    - second-host-test
