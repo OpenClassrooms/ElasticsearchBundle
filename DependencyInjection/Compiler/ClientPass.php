@@ -24,7 +24,7 @@ class ClientPass implements CompilerPassInterface
         foreach ($clients_parameters as $clientName => $parameters) {
             $clientServiceId = 'openclassrooms.elasticsearch.client.' . $clientName;
 
-            $factoryDefinition = new Definition('\Elasticsearch\Client');
+            $factoryDefinition = new Definition('Elasticsearch\Client');
             $factoryDefinition->setFactoryService('openclassrooms.elasticsearch.client_factory');
             $factoryDefinition->setFactoryMethod('create');
             $factoryDefinition->setArguments(array($parameters));
