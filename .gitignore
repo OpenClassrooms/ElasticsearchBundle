@@ -7,13 +7,7 @@ vendor/*
 */cache/*
 web/uploads/*
 web/bundles/*
-nbproject/*
 
-# Configuration files
-app/config/parameters.ini
-/nbproject/private/
-.idea
-atlassian-ide-plugin.xml
 
 #composer
 composer.lock
